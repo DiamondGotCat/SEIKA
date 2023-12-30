@@ -1,6 +1,9 @@
 # SEIKA
 SEIKA is Project management tool.
 
+# note
+In development.
+
 # Setup
 The database and PHP server should be on the same computer and accessible via localhost.
 
