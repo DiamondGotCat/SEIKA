@@ -26,7 +26,7 @@ create table project (
 -- * RestoreFromTempTable
 create table user (
   username char(10) not null comment 'ユーザー名'
-  , password char(20) not null comment 'パスワード'
+  , password TEXT not null comment 'パスワード'
   , isowner int default 0 not null comment 'オーナーかどうか。１ならオーナー。'
   , constraint user_PKC primary key (username)
 ) comment 'ユーザーのID、パスワードを管理する。ownerかどうかもわかる。' ;
